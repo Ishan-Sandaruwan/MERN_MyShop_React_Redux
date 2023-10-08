@@ -12,3 +12,7 @@
 .smooth{
   transition: all .4s linear;
 }
+
+.middle{
+  @apply flex items-center justify-center ;
+}
