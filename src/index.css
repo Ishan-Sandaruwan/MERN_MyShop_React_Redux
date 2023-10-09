@@ -13,6 +13,23 @@
   transition: all .4s linear;
 }
 
+.anim {
+  animation: anim 1s infinite linear;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .middle{
   @apply flex items-center justify-center ;
 }
